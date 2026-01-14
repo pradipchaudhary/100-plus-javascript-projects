@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <header
       className="
         sticky top-0 z-50 
-        backdrop-blur-sm border-b border-zinc-800 border-dashed
+        backdrop-blur-sm border-b border-zinc-800 border-dashed bg-[#0f0f0fd5]
       "
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                 src="/100PlusJS_logo.png"
                 alt="100PlusJS Logo"
                 width={78}
-                height={50}
+                height={40}
                 priority
                 className="object-contain"
               />
